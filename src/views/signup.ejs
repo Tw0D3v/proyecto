@@ -1,0 +1,12 @@
+
+<%- include("templates/header"); %>
+
+<div class="content">
+  <form action="/api/auth/signup" method="post">
+    <input type="text" name="username" />
+    <input type="text" name="email" />
+    <input type="password" name="password" id="" />
+    <button class="btn waves-effect waves-light">Register</button>
+  </form>
+</div>
+<%- include("templates/footer"); %>

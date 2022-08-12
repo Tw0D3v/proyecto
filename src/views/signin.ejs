@@ -1,0 +1,21 @@
+<%- include("templates/header"); %>
+
+<div class="container">
+  <form class="form" action="/api/auth/signin" method="post">
+    <h1><%- title%></h1>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="" />
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="" />
+    <button class="submit">Session</button>
+ 
+
+    <div class="inf">
+      <a class="dropdown-item" href="#">Forgot Password</a>
+      <a class="dropdown-item" href="#">Forgot Password</a>
+    </div>
+  </form>
+</div>
+<%- include("templates/footer"); %>
+
+<div></div>
